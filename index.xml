@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sub4Sub Score Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sub4Sub Score Tracker</h1>
+        <p>Grow your YouTube channel by subscribing to others and earning a score! Enter your channel ID to see your subscriber count and score.</p>
+    </header>
+    <main>
+        <section>
+            <h2>Check Your Stats</h2>
+            <input type="text" id="channelId" placeholder="Enter Your Channel ID (e.g., UCX6OQ3DkcsbYNE6H8uQQuVA)">
+            <button id="fetchButton">Fetch Data</button>
+            <div id="result">
+                <p>Channel Name: <span id="channelName">-</span></p>
+                <p>Subscriber Count: <span id="subCount">-</span></p>
+                <p>Score: <span id="score">-</span></p>
+            </div>
+        </section>
+        <section>
+            <h2>Channels to Subscribe To</h2>
+            <p>Subscribe to these channels and encourage others to join!</p>
+            <ul id="channelList">
+                <li><a href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA" target="_blank">Example Channel 1</a></li>
+                <li><a href="https://www.youtube.com/channel/UCsT0YIqwnpJCM-mx7-gSA4Q" target="_blank">Example Channel 2</a></li>
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
